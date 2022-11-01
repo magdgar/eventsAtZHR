@@ -1,9 +1,24 @@
 import ListItem from "./ListItem";
 
-function List(props) {
+interface Event {
+    title: string;
+    subtitle: string;
+    description: string;
+    link: string;
+    type: string;
+    location: string;
+  }  
+  
+interface ListProps {
+    sampleData: Array<Event>;
+    type: string;
+    location: string;
+  }
+
+function List(props: ListProps) {
   const listComponents = props.sampleData
-    .filter((event) => event.type.includes(props.filter))
-    .filter((event) => event.location.includes(props.city))
+    .filter((event) => event.type.includes(props.type))
+    .filter((event) => event.location.includes(props.location))
     .map((object) => {
       return (
         <ListItem

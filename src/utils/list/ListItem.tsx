@@ -4,11 +4,11 @@ import Button from "react-bootstrap/Button";
 
 import Card from "react-bootstrap/Card";
 
-function openInNewTab(link) {
+function openInNewTab(link: string) {
   window.open(link, "_blank", "noopener,noreferrer");
 }
 
-function ListItem(props) {
+function ListItem(props: any) {
   let link = `${props.link}`;
 
   return (

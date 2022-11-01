@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import Toast from "react-bootstrap/Toast";
-import Button from "react-bootstrap/Button";
 
 const Toasts: React.FC = () => {
   const [show, toggleShow] = useState(true);
