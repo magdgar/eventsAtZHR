@@ -14,7 +14,7 @@ const Toasts: React.FC = () => {
           <small>11 mins ago</small>
         </Toast.Header>
         <Toast.Body>
-          This page aims to organise events organised by AWS in Switzerland.
+          This page aims to gather events organised by AWS in Switzerland.
           This is not official AWS website!
         </Toast.Body>
       </Toast>

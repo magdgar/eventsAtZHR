@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* make the customizations */
+// $theme-colors: (
+//         "info": tomato,
+//         "danger": teal
+// );
+$orange:   #FF8C00;
+$body-bg: #383c50;
+
+$theme-colors: (
+  "primary":    #ff9505,
+  "blue":       #e2711d,
+  "secondary":  #ff9505,
+  "success":    #ff9505,
+  "info":       $info,
+  "warning":    #ffb627,
+  "danger":     #ffc971,
+  "light":      #EED6AE,
+  "dark":       $dark,
+  "orange":     $orange
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";

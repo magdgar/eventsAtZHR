@@ -13,15 +13,15 @@ function ListItem(props: any) {
 
   return (
     <>
-      <Card style={{ width: "40rem" }}>
+      <Card className="mt-4" style={{ width: "70rem" }}>
         <Card.Body>
           <Card.Title> {`${props.title}`} </Card.Title>
-          <Card.Subtitle>
+          <Card.Subtitle className="mt-2">
             {" "}
             {`${props.subtitle}`}
             {/* 8:00 - 14:00 | 29.10.2022 | AWS Zurich Office{" "} */}
           </Card.Subtitle>
-          <Card.Text>
+          <Card.Text className="mt-1">
             {" "}
             {`${props.description}`}
             {/* Some quick example text to build on the card title and make up the
