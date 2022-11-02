@@ -8,7 +8,7 @@ const data = [
       location: "Zurich"
     },
     {
-        title: "Immersion",
+        title: "AWS Immersion Day: Security",
         subtitle: "8:00 - 14:00 | 10.11.2022 | AWS Geneva Office",
         description: "This event is aimed at people with a security profile but also at developers and operations, architects and CTOs. Join this half-day event if you want to understand the fundamentals of security on AWS, because security is everyone's business.",
         link: "https://awsimmersiondaysecurityge.splashthat.com/",
